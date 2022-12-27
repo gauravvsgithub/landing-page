@@ -81,3 +81,30 @@ li > a {
 
 /* Illustration part */
 
+.illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.illustration .title {
+    margin-top: 48px;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 24px 0;
+}
+
+.card > img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.caption {
+    width: 100px;
+}
