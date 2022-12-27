@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
 body {
     min-height: 100vh;
     display: flex;
@@ -99,8 +99,8 @@ li > a {
 }
 
 .card > img{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -108,3 +108,27 @@ li > a {
 .caption {
     width: 100px;
 }
+
+/* quote section */
+
+.quote {
+    margin: 48px 0;
+    background-color: #E5E7EB;
+    padding: 80px 100px;
+    color: #1F2937;
+}
+.quote-content {
+    font-style: italic;
+    font-size: 32px;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 20px;
+    
+}
+
+/* call to action section */
+
