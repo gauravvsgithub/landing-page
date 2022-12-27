@@ -131,4 +131,38 @@ li > a {
 }
 
 /* call to action section */
+.signup-card {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    margin:48px 70px;
+    padding: 36px 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
 
+.primary-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.signup-card > button {
+    background-color: #3882F6;
+    border: 1px solid #F9FAF8;
+    color: #F9FAF8;
+    margin-top: 8px;
+    padding: 6px 20px;
+    border-radius: 6px;
+    font-weight:bold;
+}
+
+/* footer section */
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+}
